@@ -9,6 +9,6 @@ The default tool for building the image is *podman*.
 This can be changed to *docker* by setting the environment variable
 `CONTAINER_TOOL`.
 
-```
-make image
+```console
+$ make image
 ```
