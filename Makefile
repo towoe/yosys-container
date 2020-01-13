@@ -1,5 +1,6 @@
 IMAGE_NAME ?= towoe/yosys
-BUILD_OPTS ?= --network host
+BUILD_OPTS ?= --network host \
+	      --format docker
 CONTAINER_TOOL ?= podman
 
 image: Containerfile
