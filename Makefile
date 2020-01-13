@@ -1,4 +1,4 @@
-IMAGE_NAME ?= towoe/yosys
+IMAGE_NAME ?= docker.io/towoe/yosys
 BUILD_OPTS ?= --network host \
 	      --format docker
 CONTAINER_TOOL ?= podman
